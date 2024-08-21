@@ -57,7 +57,7 @@
       "id": 5,
       "sku": "JP10005",
       "nama_produk": "Hi-Chew Grape",
-      "kategori": "Candy"
+      "kategori": "Permen"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
       "id": 7,
       "sku": "JP10007",
       "nama_produk": "Puccho Cola",
-      "kategori": "Candy"
+      "kategori": "Permen"
     },
     {
       "id": 8,
