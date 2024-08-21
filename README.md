@@ -3,16 +3,27 @@
 - Buat 1 database dengan format “nim_nama.db”
 - Buat 2 buah tabel:
   - Tbl_product berisi:
-      - Id int
-      - Sku text
-      - Nama_produk text
-      - Kategori text
+      ```json
+        {
+          "id" : "int",
+          "sku" : "text",
+          "nama_produk" : "text",
+          "kategori" : "text"
+      }
+    ```
   - Tbl_customer berisi
-      - Id int
-      - Nama_pelanggan text
-      - Alamat char
-      - Email varchar
-   
+      ```json
+        {
+          "id" : "int",
+          "nama_pelanggan" : "text",
+          "alamat" : "char",
+          "email" : "varchar"
+        }
+      ```
+- Tambahkan 5 data ke masing-masing tabel
+- Submit file database yang dibuat ke sistem akademik dengan cara upload terlbih
+  dahulu ke repository seperti github, google drive, dsb kemudian submit file yang
+  berisi linknya ke sistem akademik atau kirimkan via wagroup untuk linknya
 
 ## Tabel Product
 ```json
@@ -21,62 +32,100 @@
     {
       "id": 1,
       "sku": "JP10001",
-      "namaProduk": "Pocky Chocolate",
+      "nama_produk": "Pocky Chocolate",
       "kategori": "Snack"
     },
     {
       "id": 2,
       "sku": "JP10002",
-      "namaProduk": "Kit Kat Matcha",
+      "nama_produk": "Kit Kat Matcha",
       "kategori": "Snack"
     },
     {
       "id": 3,
       "sku": "JP10003",
-      "namaProduk": "Calbee Shrimp Chips",
+      "nama_produk": "Calbee Shrimp Chips",
       "kategori": "Snack"
     },
     {
       "id": 4,
       "sku": "JP10004",
-      "namaProduk": "Jagabee Potato Sticks",
+      "nama_produk": "Jagabee Potato Sticks",
       "kategori": "Snack"
     },
     {
       "id": 5,
       "sku": "JP10005",
-      "namaProduk": "Hi-Chew Grape",
+      "nama_produk": "Hi-Chew Grape",
       "kategori": "Candy"
     },
     {
       "id": 6,
       "sku": "JP10006",
-      "namaProduk": "Ramune Soda",
+      "nama_produk": "Ramune Soda",
       "kategori": "Minuman"
     },
     {
       "id": 7,
       "sku": "JP10007",
-      "namaProduk": "Puccho Cola",
+      "nama_produk": "Puccho Cola",
       "kategori": "Candy"
     },
     {
       "id": 8,
       "sku": "JP10008",
-      "namaProduk": "Tokyo Banana",
+      "nama_produk": "Tokyo Banana",
       "kategori": "Snack"
     },
     {
       "id": 9,
       "sku": "JP10009",
-      "namaProduk": "Meltykiss Chocolate",
+      "nama_produk": "Meltykiss Chocolate",
       "kategori": "Snack"
     },
     {
       "id": 10,
       "sku": "JP10010",
-      "namaProduk": "UCC Coffee with Milk",
+      "nama_produk": "UCC Coffee with Milk",
       "kategori": "Minuman"
+    }
+  ]
+}
+```
+
+## Tabel Customer
+```json
+{
+  "Tbl_customer": [
+    {
+      "id": 1,
+      "nama_pelanggan": "",
+      "alamat": "",
+      "email": ""
+    },
+    {
+      "id": 2,
+      "nama_pelanggan": "",
+      "alamat": "",
+      "email": ""
+    },
+    {
+      "id": 3,
+      "nama_pelanggan": "",
+      "alamat": "",
+      "email": ""
+    },
+    {
+      "id": 4,
+      "nama_pelanggan": "",
+      "alamat": "",
+      "email": ""
+    },
+    {
+      "id": 5,
+      "nama_pelanggan": "",
+      "alamat": "",
+      "email": ""
     }
   ]
 }
